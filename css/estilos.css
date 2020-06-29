@@ -1,14 +1,16 @@
 body{
     background-color: rgb(211, 187, 187);
     text-align: left;
-    color: black;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 .container{
     border: 1px solid gray;
+     color:black ;
     margin: 0 auto;
     width: 600px;
+    background-color: honeydew;
 }
 
 .cabecera{
@@ -19,6 +21,11 @@ body{
     display: flex;
     align-items: center;
     box-shadow: 0px 2px 20px 0px black;
+}
+
+.image{
+    width: 45px;
+    padding-right: 8px;
 }
 
 .hyperblog{
